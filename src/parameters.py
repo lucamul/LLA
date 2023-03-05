@@ -1,0 +1,14 @@
+SEED = 19
+DATA_PATH = "/home/luca/MachineLearning/PML2Try/MYATTEMPT/data"
+SUBMISSION_PATH = "../PML2Try/MYATTEMPT/submission/submission.csv"
+PATCH_SIZE = 80
+BATCH_SIZE = 10
+LR = 0.001
+MAX_ITER = 64
+TH = 0.25
+DEVICE = None
+TEST_SIZE = 0.3
+K_FOLD = 5
+
+THRESHOLD_VALIDATION_VECTOR = [0.20, 0.25, 0.30, 0.35] # found optimal 0.25
+LEARNING_RATE_VALIDATION_VECTOR = [0.0003, 0.0001, 0.001, 0.01] # found optimal 0.0003
